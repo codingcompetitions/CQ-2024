@@ -14,9 +14,6 @@ class Day06
 
     #
     #
-    # @param path [String] Path to file.
-    # @param debug [true, false] if _debug_ is enabled.
-    # @return [String] The message decoded.
     sig { params(path: String, debug: T::Boolean).returns(String) }
     def self.part01(path, debug)
         alphabet = [

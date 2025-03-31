@@ -7,13 +7,12 @@
 
 require "sorbet-runtime"
 
-#
-#
+# [Purchase tickets](https://codingquest.io/problem/28)
 class Day01
     extend T::Sig
 
-    #
-    #
+    # Input file contains an unordered list of flight tickets information of
+    # several travel companies. Each line has information about the
     sig { params(path: String, debug: T::Boolean).returns(Integer) }
     def self.part01(path, debug)
         spaceliner = {}
